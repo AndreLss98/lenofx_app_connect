@@ -1,0 +1,34 @@
+{
+  "name": "lenofx-appconnect",
+  "version": "1.0.0",
+  "description": "Application service for LenoFX Shopify site.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js -p",
+    "homolog": "node src/index.js -h",
+    "dev": "nodemon src/index.js -- -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andre Luis da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.865.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "bunyan": "^1.8.15",
+    "city-timezones": "^1.2.0",
+    "commander": "^7.1.0",
+    "cors": "^2.8.5",
+    "countries-and-timezones": "^2.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "knex": "^0.21.18",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "semver": "^7.3.5",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.9"
+  }
+}
